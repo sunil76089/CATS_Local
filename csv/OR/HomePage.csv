@@ -1,0 +1,25 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;CSS SELECTOR;DYNAMIC PROPERTY
+HomePage;;;;;Account;;;//div[@class='utility-links nav-menu-links primary'];;
+;;;;;DropDownSection;;;//*[@id='dropdownMenu1']/section;;
+;;;;;SignIn;;;//*[@id='dropdownMenu1']/section/a[1];;
+;;;;;CreateAccount;;;//*[@id='dropdownMenu1']/section/a[2];;
+;;;;;Logo;;;//div[@class='site-logo']/div/a;;
+;;;;;Chat;;;//div[@class='utility-nav-item chat']/a;;
+;;;;;ContactUs;;;//div[@class='utility-nav-item help']/a;;
+;;;;;Search;;;.//*[@id='search'];;
+;;;;;MegaMenu;;;//nav[@class='navigation desktop-nav-items']/ul/li;;
+;;;;;RegisterProductSection;;;//*[@id='footerProductRegistration'];;
+;;;;;SocialIcons;;;//div[@class='social-icons'];;
+;;;;;ServiceSupport;;;//div[@class='col-lg-3 col-mdx-3 col-md-12 sub-navs'][1];;
+;;;;;Products;;;//div[@class='col-lg-3 col-mdx-3 col-md-12 sub-navs'][2];;
+;;;;;AccessoriseOthers;;;//div[@class='col-lg-3 col-mdx-3 col-md-12 sub-navs'][3];;
+;;;;;AboutMaytag;;;//div[@class='col-lg-3 col-mdx-3 col-md-12 sub-navs'][4];;
+;;;;;TermsConditions;;;//div[@class='links-section'];;
+;;;;;WasherDryerTab;;;//a[@class='nav-links' and text()='WASHERS & DRYERS'];;
+;;;;;WasherTab;;;//ul[@class='sub-nav clearfix']/li[1];;
+;;;;;TopLoadWasher;;;//a[text()='Top-Load Washers'];;
+;;;;;RegisterProduc;;;//a[text()='REGISTER PRODUCT'];;
+HomePage_W;;;;;ProductsNav_WP;;;//a[@class='nav-links' and text()='Products'];;
+;;;;;TopLoadWasher_WP;;;//span[text()='Top-Load Washers'];;
+;;;;;RegisterProduc;;;//input[@id='registration' and @placeholder='Enter Model Number'];;
+;;;;;RegisterBtn;;;//*[@id='footerProductRegistration']/div[1]/span/button;;

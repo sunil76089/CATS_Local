@@ -1,0 +1,5 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;CSS SELECTOR;DYNAMIC PROPERTY
+Homepage;;;;;SignOut;;;//*[@id='dropdownMenu1']/div[2]/section/div/a[5];;
+;;;;;Icons;;;//div[@class='icon-container'];;
+;;;;;MyAccountPage;;;//div[@class='my-account'];;
+;;;;;Account;;;//div[@class='utility-links nav-menu-links primary']/span[3];;

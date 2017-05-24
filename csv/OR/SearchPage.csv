@@ -1,0 +1,13 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;DYNAMIC PROPERTY;CSS SELECTOR;
+Search;;;;;ProductHeader;;;//div[@class='show-for']/h1;;;
+;;;;;Content;;;//*[@id='search-tab']/ul/li[2];;;
+;;;;;Product;;;//*[@id='search-tab']/ul/li[1];;;
+;;;;;ProductRefineBy;;;//*[@id='search-container']/div[1];;;
+;;;;;ContentRefineBy;;;//*[@id='search2']/div[1];;;
+;;;;;MSRP;;;//div[@class='product-price'];;;
+;;;;;Reviews;;;//div[@class='plp-ratings'];;;
+;;;;;SaveToCart;;;.//a[@class='quaternary wishlist'];;;
+;;;;;EnergyGuide;;;//a[text()='EnergyGuide'];;;
+;;;;;GridView;;;//*[@id='search-container']/div[2]/div[1]/div[2]/i[2];;;
+;;;;;ListView;;;//*[@id='search-container']/div[2]/div[1]/div[2]/i[1];;;
+;;;;;ProductElements;;;//a[@class='primary the-product-title'];;;
