@@ -1,0 +1,70 @@
+ID;SCENARIO NAME;SCENARIO DESCRIPTION;TEST CASES;TEST DATA KEY;PRIORITY;;
+2;AccountRegistration;Verify that user can create an account with valid Email address and Password and JavaScript popup with “Your Account has been successfully created” message appears on successful account creation;HOMEPAGE_1,HOMEPAGE_2, HOMEPAGE_4, HOMEPAGE_4;;;;
+3;AccountRegistration;Verify that user can create an account with valid Email address and Password and JavaScript popup with “Your Account has been successfully created” message appears on successful account creation;HOMEPAGE_1,HOMEPAGE_2, HOMEPAGE_4, HOMEPAGE_5;;;;
+SignIn;SignIn;Verify user is able to login to MAYTAG from Home Page, with valid user name and password, using sign-in overlay;HOMEPAGE_1, HOMEPAGE_3, HOMEPAGE_5, HOMEPAGE_2;"FIELD1;FIELD2";;;
+CreateAccount;CreateAccount;Verify that user can create an account with valid Email address and Password and JavaScript popup with “Your Account has been successfully created” message appears on successful account creation;HOMEPAGE_1, HOMEPAGE_4, HOMEPAGE_6, HOMEPAGE_2;"FIELD1;FIELD2";;;
+SignInSignOut;SignInSignOut;Verify that a logged in user is able to log out of his Account by clicking the SIGN OUT link from top navigation;HOMEPAGE_1, HOMEPAGE_3, HOMEPAGE_5, HOMEPAGE_13, HOMEPAGE_2;"FIELD1;FIELD2";;;
+ProdRegistrationMaytag;ProdRegistrationMaytag;User able to register by help of Product registration functionality where user enter the information of his/her product , which will be visible in My account of that user .;HOMEPAGE_1, HOMEPAGE_11, HOMEPAGE_2;Field1;;;
+ProdRegistrationWhirlpool;ProdRegistrationWhirlpool;User able to register by help of Product registration functionality where user enter the information of his/her product , which will be visible in My account of that user .;HOMEPAGE_1, HOMEPAGE_10, HOMEPAGE_2;Field2;;;
+Header;Header;"Validate header and all components
+1. Logo
+2. Chat 
+3. Contact us
+4. Account
+    a.) Account >Signin
+    b.) Account > Create Account
+5. Search Text Box
+6. Mega Menu";HOMEPAGE_1, HOMEPAGE_8,HOMEPAGE_2;"FIELD1;FIELD2";;;
+Footer;Footer;"Validate footer and all components
+1. Register your Product section
+2. Social Icons
+   a.) Facebook
+   b.) Twitter
+   c.) Pinterest
+   d.) YouTube
+3. SERVICE & SUPPORT 
+4. PRODUCTS
+5. ACCESSORIES & OTHER
+6. MAYTAG";HOMEPAGE_1, HOMEPAGE_9,HOMEPAGE_2;"FIELD1;FIELD2";;;
+SearchName;SearchName;Search Product by entering the Product Name in Search Field in Home Page and verify the search result;HOMEPAGE_1,SEARCH_1,HOMEPAGE_2;"FIELD1;FIELD2";;;
+ProductContent;ProductContent;Verify that on Search result there is 2 section one for products and 1 for content basis documents.;HOMEPAGE_1,SEARCH_1,HOMEPAGE_2;"FIELD1;FIELD3";;;
+SearchModel;SearchModel;Search Product by entering the Model Number in Search Field in Home Page and verify the search result which should be PDP having the searched model.;HOMEPAGE_1, SEARCH_3, HOMEPAGE_2;"FIELD1;FIELD2";;;
+FilterSort;FilterSort;Verify sorting and filters are working fine on search result page;HOMEPAGE_1,SEARCH_4, HOMEPAGE_2;"FIELD1;FIELD2";;;
+View;View;Verify that user able to change the Search PLP view from List view to Grid View or vice versa;HOMEPAGE_1,SEARCH_6, HOMEPAGE_2;"FIELD1;FIELD2";;;
+ProdDetail;ProdDetail;Verify that searched result product contains  MSRP, Energy Guide, Review selection and Save product functionality. ;HOMEPAGE_1,SEARCH_7, HOMEPAGE_2;"FIELD1;FIELD2";;;
+Refine;Refine;Verify that refine section attributes should change when user click on Content Basis Tab;HOMEPAGE_1,SEARCH_8, HOMEPAGE_2;"FIELD1;FIELD2";;;
+PLPNavigation_whirlpool;PLPNavigation_whirlpool;Verify the PLP page by browsing the product from navigation, Like Washers & Dryers-> Washers ->Top-Load Washers;HOMEPAGE_1,  PLP_1, HOMEPAGE_2;;;;
+PLPNavigation_maytag;PLPNavigation_maytag;Verify the PLP page by browsing the product from navigation, Like Washers & Dryers-> Washers ->Top-Load Washers;HOMEPAGE_1,  PLP_6, HOMEPAGE_2;;;;
+PLPFilterSort;PLPFilterSort;Verify sorting and filters are working fine on PLP page;HOMEPAGE_1,  PLP_1, PLP_2, SEARCH_5, HOMEPAGE_2;;;;
+PLPListGrid;PLPListGrid;Verify that user able to change the PLP view from List view to Grid View or vice versa;HOMEPAGE_1,  PLP_1, PLP_3, HOMEPAGE_2;;;;
+PLPDetail;PLPDetail;Verify that PLP product contains  MSRP, Energy Guide, Review selection and Save product functionality. ;HOMEPAGE_1,  PLP_1, PLP_5, HOMEPAGE_2;;;;
+Compare;Compare;verify that user able to compare maximum 5 products by selecting compare checkboxes;HOMEPAGE_1,  PLP_1, PLP_4, HOMEPAGE_2;;;;
+ProdAttribute;ProdAttribute;"Verify the following product attribute in PDP
+1) Product Name
+2) Review Section
+3) Product Price
+4) Product Description
+5) Color 
+6) Size
+7) Image
+8) Alt Image
+9) Image zoom in and full screen section ";HOMEPAGE_1,  SEARCH_3, PDP_1, HOMEPAGE_2;;;;
+PDPFunctionality;PDPFunctionality;"Verify that following functionality is available on PDP
+1) Where to Buy
+2) Compare checkbox
+3) Save in option for registered user & Sign in to save for guest
+4)Share icon for social sharing of the product on social sites.";HOMEPAGE_1,  SEARCH_3, PDP_2, HOMEPAGE_2;;;;
+WhereToBuy;WhereToBuy;Verify that on clicking where to buy user redirect to Find a Store page and able to find the product by entering City,state or ZIP code.;HOMEPAGE_1,  SEARCH_3, PDP_7, HOMEPAGE_2;;;;
+PDPSection;PDPSection;"Verify that following section is available on PDP
+1) Features
+2) Specs & Manuals
+3) Ratings & Reviews
+4) Recommendations";HOMEPAGE_1,  SEARCH_3, PDP_3, HOMEPAGE_2;;;;
+PDPReview;PDPReview;Verify that on clicking Rating  user able to view the ratings given by the other users for this maschine;HOMEPAGE_1,  SEARCH_3, PDP_4, HOMEPAGE_2;"FIELD1;FIELD2";;;
+PDPWriteReview;PDPWriteReview;Verify that on clicking write a review user able to write his/her review on the popup invokes after clicking on write a review;HOMEPAGE_1,  SEARCH_3, PDP_6,  PDP_5, HOMEPAGE_2;"FIELD1;FIELD2";;;
+PDPSpecificationManual;PDPSpecificationManual;Verify that Specifications & Manuals is available on PDP;HOMEPAGE_1,  SEARCH_3, PDP_5, HOMEPAGE_2;"FIELD1;FIELD2";;;
+PLPMaytag;PLPMaytag;PLPMaytag;HOMEPAGE_1,  PLP_1, PLP_2,  PLP_3,  PLP_4,  PLP_5, HOMEPAGE_2;FIELD1;;;
+PLPWhirlpool;PLPWhirlpool;PLPWhirlpool;HOMEPAGE_1,  PLP_6, PLP_2,  PLP_3,  PLP_4,  PLP_5, HOMEPAGE_2;FIELD2;;;
+PDP;PDP;PDP;HOMEPAGE_1,  SEARCH_3, PDP_1, PDP_2, PDP_7, PDP_3, PDP_4,  PDP_6,  PDP_5,  HOMEPAGE_2;"FIELD1;FIELD2";;;
+HeaderFooter;HeaderFooter;HeaderFooter;HOMEPAGE_1, HOMEPAGE_8, HOMEPAGE_9, HOMEPAGE_2;"FIELD1;FIELD2";;;
+Search;Search;Search;HOMEPAGE_1,  SEARCH_3, SEARCH_1, SEARCH_2, SEARCH_4, SEARCH_5, SEARCH_6, SEARCH_7, SEARCH_8, HOMEPAGE_2;"FIELD1;FIELD2";;;

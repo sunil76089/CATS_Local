@@ -1,0 +1,10 @@
+RELEASE;TEST SUITE;TEST CASES - SCENARIOS;CHANNEL;BROWSERS;ITERATIONS;RUN;CONFIG;BATCH;OWNER;SUITE VARIABLES;DESCRIPTION;LABELS
+R1;SearchFunctionality_WP_MT;SCENARIOS_Search;Desktop;Chrome;1;Y;;;;;;
+R1;PDPFunctionality_WP_MT;SCENARIOS_PDP;Desktop;Chrome;1;Y;;;;;;
+R1;PLPFunctionality_MT;SCENARIOS_PLPMaytag;Desktop;Chrome;1;Y;;;;;;
+R1;PLPFunctionality_WP;SCENARIOS_PLPWhirlpool;Desktop;Chrome;1;Y;;;;;;
+R1;AccountFunctionality_WP_MT;SCENARIOS_CreateAccount;Desktop;Chrome;1;Y;;;;;;
+R1;SignInFunctionality_WP_MT;SCENARIOS_SignInSignOut;Desktop;Chrome;;Y;;;;;;
+R1;ProdRegistrationFunctionality_MT;SCENARIOS_ProdRegistrationMaytag;Desktop;Chrome;1;Y;;;;;;
+R1;ProdRegistrationFunctionality_WP;SCENARIOS_ProdRegistrationWhirlpool;Desktop;Chrome;1;Y;;;;;;
+R1;HeaderFooterFunctionality_WP_MT;SCENARIOS_HeaderFooter;Desktop;Chrome;1;Y;;;;;;

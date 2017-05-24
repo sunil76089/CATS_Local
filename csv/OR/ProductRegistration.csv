@@ -1,0 +1,15 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;CSS SELECTOR;DYNAMIC PROPERTY
+ProductRegistration;;;;;ModelNumber;;;//*[@id='modelNumber'];;
+;;;;;SerialNumber;;;//*[@id='serialNumber'];;
+;;;;;FirstName;;;//*[@id='firstName'];;
+;;;;;LastName;;;.//*[@id='lastName'];;
+;;;;;Address;;;.//*[@id='line1'];;
+;;;;;PostCode;;;//*[@id='address.postcode'];;
+;;;;;City;;;//*[@id='address.townCity'];;
+;;;;;Region;;;.//*[@id='address.region'];;
+;;;;;Phone;;;//*[@id='phone'];;
+;;;;;Email;;;//*[@id='email'];;
+;;;;;TermsCondition;;;//*[@id='product-Reg']/div[5]/div[2]/label/span;;
+;;;;;RegisterProduct;;;//*[@id='submitProductRegistrationId'];;
+;;;;;Password;;;//*[@id='pwdId'];;
+;;;;;ConfirmPassword;;;//*[@id='checkPwdId'];;

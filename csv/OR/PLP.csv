@@ -1,0 +1,21 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;DYNAMIC PROPERTY;CSS SELECTOR
+ProductList;http://www.amazon.in/s/ref=nb_sb_noss_2/277-5054884-2238051?url=search-alias%3Daps&field-keywords=Wool+Jacket;;;;IMGResult1;;;.//*[@id='result_1']/div/div/div/div[1]/div/div/a/img;;
+;;;;;LNKProduct;;;;"xpath::.//*[@title=\""{{$PDP.ProductTitle.ER1}}\""]";
+;;;;;TXTProductTitle;;;.//*[@id='productTitle'];;
+;;;;;TXTProductBrand;;;.//*[@id='brand'];;
+;;;;;SELECTSize;;;.//*[@id='native_dropdown_selected_size_name'];;
+;;;;;SELECTQuantity;;;.//*[@id='quantity'];;
+;;;;;BTNAddToCart;;;.//*[@id='add-to-cart-button'];;
+PLPHome;;;;;Product1;;;//*[@id='resultItems']/li[1]/a/div/div[2]/h5;;
+PLP;;;;;PLPHeader;;;//div[@class='baseComponent section pagetitle']/h1;;
+;;;;;RefineBy;;;//*[@id='search-container']/div[2];;
+;;;;;firstFeature;;;//div[@class='facet-content']/ul/li[1]/label/div/span;;
+;;;;;selectedFeature;;;//*[@id='facetsWhole']/div/div[1]/div[2]/ul/li/span;;
+;;;;;RemoveFeature;;;//*[@id='facetsWhole']/div/div[1]/div[2]/ul/li/i;;
+;;;;;allPrices;;;//*[@id='searchResultContainer']/div/div[1]/div[2]/div[1]/div[2]/div/span;;
+;;;;;sortProducts;;;//*[@id='sort-dropdown'];;
+;;;;;ListView;;;//*[@id='search-container']/div[3]/div[1]/div[2]/i[1];;
+;;;;;GridView;;;//*[@id='search-container']/div[3]/div[1]/div[2]/i[2];;
+;;;;;CompareCheckBox;;;(//label[contains(@for,'product-compare')])[1];;
+;;;;;CompareProducts;;;//*[@id='collapseCompareBar']/div[1]/div/div/div/div;;
+;;;;;Reviews;;;//div[contains(@class,'plp-ratings')];;

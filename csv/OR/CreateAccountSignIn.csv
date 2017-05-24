@@ -1,0 +1,13 @@
+PAGE;URL;ELEMENT;ELEMENTTYPE;ELEMENTVALUE;ELEMENTNAME;HTMLID;CLASSNAME;XPATH;CSS SELECTOR;DYNAMIC PROPERTY
+CreateAccountSignIn;;;;;firstName;;;//*[@id='register_firstName'];;
+;;;;;lastName;;;//*[@id='register_lastName'];;
+;;;;;email;;;//*[@id='register_Email'];;
+;;;;;confirmEmail;;;//*[@id='register_EmailConfirm'];;
+;;;;;password;;;//*[@id='register_password'];;
+;;;;;confirmPassword;;;//*[@id='register_passwordConfirm'];;
+;;;;;agreementCheckbox;;;//*[@id='registrationForm']/fieldset/div[9]/div/label/span;;
+;;;;;signInEmail;;;.//*[@id='headerSignin_Email'];;
+;;;;;signInPassword;;;//*[@id='headerSignin_Password'];;
+;;;;;login;;;//*[@id='login-submit'];;
+;;;;;rememberMe;;;//*[@id='loginForm']/fieldset/div[4]/div/label/span;;
+;;;;;register;;;//*[@id='register-submit'];;
